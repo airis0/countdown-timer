@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カウントダウンタイマー</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div class="board">
+  <div id="setTimeBtns">
+    <span>時
+      <input type="button" id="addHours" value="＋">
+      <input type="button" id="subtractHours" value="－">
+    </span>
+    <span>分
+      <input type="button" id="addMinutes" value="＋">
+      <input type="button" id="subtractMinutes" value="－">
+    </span>
+    <span id="Seconds-span">秒
+      <input type="button" id="addSeconds" value="＋">
+      <input type="button" id="subtractSeconds" value="－">
+    </span>
+  </div>
+  <p id="display"></p>
+  <div>
+    <input type="button" id="start" class="inactive" value="スタート">
+    <input type="button" id="stop" class="inactive" value="ストップ">
+    <input type="button" id="reset" class="inactive" value="リセット">
+  </div>
+</div>
+
+<script src="./js/index.js"></script>
+
+</body>
+</html>
